@@ -1,0 +1,18 @@
+{
+  "name": "esfx-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "snowpack build",
+    "start": "snowpack dev"
+  },
+  "author": "@noseratio",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.0.0-rc.2"
+  },
+  "dependencies": {
+    "@esfx/async-canceltoken": "^1.0.0-pre.16",
+    "@esfx/cancelable": "^1.0.0-pre.16"
+  }
+}
