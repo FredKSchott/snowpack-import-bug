@@ -1,5 +1,4 @@
-﻿// remove this line and @esfx/cancelable will disappear from web_modules 
-import { CancelError } from "@esfx/cancelable";
+﻿import { CancelError } from "@esfx/cancelable"; // this gets ignored by Snowpack
 import { CancelToken } from "@esfx/async-canceltoken";
 
 // from https://github.com/esfx/esfx/tree/master/packages/async-canceltoken#readme
